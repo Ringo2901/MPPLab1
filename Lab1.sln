@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatConverter", "FloatConverter\FloatConverter.csproj", "{6F13E52D-73D4-4CAF-9505-46F773F733E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloatConverterTest", "FloatConverterTest\FloatConverterTest.csproj", "{B1252A48-AC19-4EB2-9AB4-9D7FF8A61E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polynomial", "Polynomial\Polynomial.csproj", "{53E56486-63F1-485C-8BF5-C969EE073C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialTest", "PolynomialTest\PolynomialTest.csproj", "{13B8EE25-7753-41B4-89F1-DCA7CDA859FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F13E52D-73D4-4CAF-9505-46F773F733E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F13E52D-73D4-4CAF-9505-46F773F733E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F13E52D-73D4-4CAF-9505-46F773F733E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F13E52D-73D4-4CAF-9505-46F773F733E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1252A48-AC19-4EB2-9AB4-9D7FF8A61E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1252A48-AC19-4EB2-9AB4-9D7FF8A61E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1252A48-AC19-4EB2-9AB4-9D7FF8A61E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1252A48-AC19-4EB2-9AB4-9D7FF8A61E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E56486-63F1-485C-8BF5-C969EE073C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E56486-63F1-485C-8BF5-C969EE073C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E56486-63F1-485C-8BF5-C969EE073C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E56486-63F1-485C-8BF5-C969EE073C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B8EE25-7753-41B4-89F1-DCA7CDA859FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B8EE25-7753-41B4-89F1-DCA7CDA859FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B8EE25-7753-41B4-89F1-DCA7CDA859FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B8EE25-7753-41B4-89F1-DCA7CDA859FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal

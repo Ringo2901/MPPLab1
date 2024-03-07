@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Polynomial</name>
+    </assembly>
+    <members>
+        <member name="T:PolynomialConsole.Polynomial">
+            <summary>
+            Represents a polynomial with double coefficients.
+            </summary>
+        </member>
+        <member name="P:PolynomialConsole.Polynomial.Coefficients">
+            <summary>
+            Gets the coefficients of the polynomial.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.#ctor(System.Double[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:PolynomialConsole.Polynomial"/> class with the specified coefficients.
+            </summary>
+            <param name="coeffs">The coefficients of the polynomial.</param>
+        </member>
+        <member name="P:PolynomialConsole.Polynomial.Degree">
+            <summary>
+            Gets the degree of the polynomial.
+            </summary>
+        </member>
+        <member name="P:PolynomialConsole.Polynomial.Item(System.Int32)">
+            <summary>
+            Gets the coefficient of the term with the specified degree.
+            </summary>
+            <param name="index">The degree of the term.</param>
+            <returns>The coefficient of the term.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown when the specified index is out of range.</exception>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.Equals(PolynomialConsole.Polynomial)">
+            <summary>
+            Determines whether the specified object is equal to the current polynomial.
+            </summary>
+            <param name="other">The polynomial to compare with the current polynomial.</param>
+            <returns>true if the specified object is equal to the current polynomial; otherwise, false.</returns>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.Equals(System.Object)">
+            <summary>
+            Determines whether the specified object is equal to the current polynomial.
+            </summary>
+            <param name="obj">The object to compare with the current polynomial.</param>
+            <returns>true if the specified object is equal to the current polynomial; otherwise, false.</returns>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.GetHashCode">
+            <summary>
+            Returns the hash code for the current polynomial.
+            </summary>
+            <returns>A hash code for the current polynomial.</returns>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Equality(PolynomialConsole.Polynomial,PolynomialConsole.Polynomial)">
+            <summary>
+            Determines whether two polynomials are equal.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Inequality(PolynomialConsole.Polynomial,PolynomialConsole.Polynomial)">
+            <summary>
+            Determines whether two polynomials are not equal.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Addition(PolynomialConsole.Polynomial,PolynomialConsole.Polynomial)">
+            <summary>
+            Adds two polynomials.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Subtraction(PolynomialConsole.Polynomial,PolynomialConsole.Polynomial)">
+            <summary>
+            Subtracts one polynomial from another.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Multiply(PolynomialConsole.Polynomial,PolynomialConsole.Polynomial)">
+            <summary>
+            Multiplies two polynomials.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Division(PolynomialConsole.Polynomial,PolynomialConsole.Polynomial)">
+            <summary>
+            Divides one polynomial by another and returns the quotient and remainder.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Multiply(PolynomialConsole.Polynomial,System.Double)">
+            <summary>
+            Multiplies a polynomial by a scalar value.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Multiply(System.Double,PolynomialConsole.Polynomial)">
+            <summary>
+            Multiplies a polynomial by a scalar value.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.op_Division(PolynomialConsole.Polynomial,System.Double)">
+            <summary>
+            Divides a polynomial by a scalar value.
+            </summary>
+        </member>
+        <member name="M:PolynomialConsole.Polynomial.ToString">
+            <summary>
+            Returns a string representation of the current polynomial.
+            </summary>
+        </member>
+    </members>
+</doc>
